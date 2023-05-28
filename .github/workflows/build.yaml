@@ -1,6 +1,7 @@
 name: Check build
 
 on:
+  workflow_dispatch:     # run manually
   pull_request:
     paths:
       - 'srcpkgs/**'
